@@ -15,6 +15,7 @@ function App() {
   const [visible, setVisible] = useState(true);
   const prevScrollPos = useRef(0);
   const videoRef = useRef(null);
+  const wasVideoPlaying = useRef(false);
 
   const handleVideoHover = () => {
     try {
@@ -32,6 +33,25 @@ function App() {
         }
       }
     } catch (error) {}
+  };
+
+  const handleAudioPlay = () => {
+    try {
+      if (videoRef.current) {
+        wasVideoPlaying.current = !videoRef.current.paused;
+        if (wasVideoPlaying.current) {
+          videoRef.current.pause();
+        }
+      }
+    } catch (e) {}
+  };
+
+  const handleAudioEnded = () => {
+    try {
+      if (wasVideoPlaying.current && videoRef.current) {
+        videoRef.current.play();
+      }
+    } catch (e) {}
   };
 
   useEffect(() => {
@@ -193,7 +213,14 @@ function App() {
             </p>
             <div className="bg-light p-3 rounded mb-4">
               <p className="mb-2 fw-bold text-dark"><i className="bi bi-mic-fill text-success me-2"></i>Escucha nuestro mensaje:</p>
-              <audio controls className="w-100" onError={(e) => e.target.style.display = 'none'}>
+              <audio 
+                controls 
+                className="w-100" 
+                onPlay={handleAudioPlay} 
+                onEnded={handleAudioEnded} 
+                onPause={handleAudioEnded} 
+                onError={(e) => e.target.style.display = 'none'}
+              >
                 <source src="./audio hablando sobre holystic.mpeg" type="audio/mpeg" />
               </audio>
             </div>
