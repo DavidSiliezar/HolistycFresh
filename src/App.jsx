@@ -345,9 +345,9 @@ function App() {
                 Redefiniendo el concepto de bienestar. Bebidas extraídas con el mayor cuidado para nutrir tu cuerpo y alma en cada sorbo.
               </p>
               <div className="d-flex gap-3 mt-4">
-                <a href="#" className="fs-4"><i className="bi bi-instagram"></i></a>
-                <a href="#" className="fs-4"><i className="bi bi-facebook"></i></a>
-                <a href="#" className="fs-4"><i className="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/holistyc_fresh/" target="_blank" rel="noopener noreferrer" className="fs-4 text-decoration-none">
+                  <i className="bi bi-instagram"></i>
+                </a>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
