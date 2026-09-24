@@ -348,6 +348,9 @@ function App() {
                 <a href="https://www.instagram.com/holistyc_fresh/" target="_blank" rel="noopener noreferrer" className="fs-4 text-decoration-none">
                   <i className="bi bi-instagram"></i>
                 </a>
+                <a href="https://wa.me/50376830462" target="_blank" rel="noopener noreferrer" className="fs-4 text-decoration-none text-success">
+                  <i className="bi bi-whatsapp"></i>
+                </a>
               </div>
             </div>
             <div className="col-lg-2 col-md-6">
@@ -370,9 +373,9 @@ function App() {
             <div className="col-lg-3 col-md-6">
               <h5 className="mb-3">Contacto</h5>
               <ul className="list-unstyled" style={{ color: '#adb5bd' }}>
-                <li className="mb-2"><i className="bi bi-geo-alt text-success me-2"></i> Centro Comercial Galerías</li>
+                <li className="mb-2"><i className="bi bi-geo-alt text-success me-2"></i> Centro Comercial Galerías, Local #210, 3ra etapa</li>
                 <li className="mb-2"><i className="bi bi-envelope text-success me-2"></i> holistycfresh@gmail.com</li>
-                <li className="mb-2"><i className="bi bi-telephone text-success me-2"></i> +503 7942 1844</li>
+                <li className="mb-2"><i className="bi bi-telephone text-success me-2"></i> +503 7683 0462</li>
               </ul>
             </div>
           </div>
