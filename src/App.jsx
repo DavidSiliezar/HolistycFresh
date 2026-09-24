@@ -370,7 +370,7 @@ function App() {
             <div className="col-lg-3 col-md-6">
               <h5 className="mb-3">Contacto</h5>
               <ul className="list-unstyled" style={{ color: '#adb5bd' }}>
-                <li className="mb-2"><i className="bi bi-geo-alt text-success me-2"></i> Universidad Modular Abierta (UMA)</li>
+                <li className="mb-2"><i className="bi bi-geo-alt text-success me-2"></i> Centro Comercial Galerías</li>
                 <li className="mb-2"><i className="bi bi-envelope text-success me-2"></i> holistycfresh@gmail.com</li>
                 <li className="mb-2"><i className="bi bi-telephone text-success me-2"></i> +503 7942 1844</li>
               </ul>
