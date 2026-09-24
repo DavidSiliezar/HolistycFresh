@@ -334,6 +334,30 @@ function App() {
         </div>
       </section>
 
+      <section id="ubicacion" className="container py-5 my-2">
+        <div className="text-center mb-4">
+          <span className="text-success fw-bold text-uppercase tracking-widest">Encuéntranos</span>
+          <h2 className="display-5 fw-bold text-dark mt-2">Visítanos en Galerías</h2>
+          <p className="text-muted fs-5">Local #210, 3ra etapa, Centro Comercial Galerías, San Salvador.</p>
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-10">
+            <div className="shadow-lg rounded-4 overflow-hidden w-100" style={{ height: '450px' }}>
+              <iframe 
+                src="https://maps.google.com/maps?q=Centro%20Comercial%20Galerias,%20San%20Salvador&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0 }} 
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Mapa de Ubicación de Holistyc Fresh"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <footer id="contacto" className="footer-advanced pt-5 pb-3">
         <div className="container">
           <div className="row gy-4 mb-4">
