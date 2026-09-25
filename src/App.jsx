@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const products = [
-  { id: 1, name: 'Jugo de Fresa y Plátano', size: '16oz', price: 2.50, badge: 'Más Vendido', image: 'https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=600&q=80' },
+  { id: 1, name: 'Jugo de Fresa y Plátano', size: '16oz', price: 2.50, badge: 'Más Vendido', image: './jugo_de_fresa_y_platano.jpeg' },
   { id: 2, name: 'Smoothie de Mango', size: '10oz', price: 2.50, badge: 'Refrescante', image: './smoothie-de-mango.jpg' },
   { id: 3, name: 'Detox Verde Intenso', size: '16oz', price: 2.50, badge: 'Salud', image: './detox_verde_intenso.jpg' },
   { id: 4, name: 'Shot Inmune de Jengibre', size: '4oz', price: 2.50, badge: 'Energía', image: './shot_inmune_de_jengibre.jpg' },
